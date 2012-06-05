@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E3ADE222-E6CF-442F-BD2B-E893AED09659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KojackGames.Blackjack.Acceptance.Tests", "KojackGames.Blackjack.Acceptance.Tests\KojackGames.Blackjack.Acceptance.Tests.csproj", "{EDCFCD8E-EA1A-4DE0-B3C7-7F7ADAE68FC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KojackGames.Blackjack.Core.Tests", "KojackGames.Blackjack.Core.Tests\KojackGames.Blackjack.Core.Tests.csproj", "{B4BA833E-52E0-4F3F-A909-65DF4DA1ECBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KojackGames.Blackjack.Domain", "KojackGames.Blackjack.Domain\KojackGames.Blackjack.Domain.csproj", "{6F365F6E-FC1E-475B-894E-A7E4662512F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KojackGames.Blackjack.Infrastructure", "KojackGames.Blackjack.Infrastructure\KojackGames.Blackjack.Infrastructure.csproj", "{94274943-2C6F-4B88-B674-5E85D95C4904}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "KojackGames.Blackjack.Ui.Web", "KojackGames.Blackjack.Ui.Web\KojackGames.Blackjack.Ui.Web.vbproj", "{2DF7322B-52F9-43C6-AD5E-6B9F1A8E45BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C945A471-DCC4-41A3-9474-F8E602F537F8}"
+	ProjectSection(SolutionItems) = preProject
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDCFCD8E-EA1A-4DE0-B3C7-7F7ADAE68FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCFCD8E-EA1A-4DE0-B3C7-7F7ADAE68FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCFCD8E-EA1A-4DE0-B3C7-7F7ADAE68FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCFCD8E-EA1A-4DE0-B3C7-7F7ADAE68FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BA833E-52E0-4F3F-A909-65DF4DA1ECBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BA833E-52E0-4F3F-A909-65DF4DA1ECBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BA833E-52E0-4F3F-A909-65DF4DA1ECBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BA833E-52E0-4F3F-A909-65DF4DA1ECBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F365F6E-FC1E-475B-894E-A7E4662512F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F365F6E-FC1E-475B-894E-A7E4662512F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F365F6E-FC1E-475B-894E-A7E4662512F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F365F6E-FC1E-475B-894E-A7E4662512F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94274943-2C6F-4B88-B674-5E85D95C4904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94274943-2C6F-4B88-B674-5E85D95C4904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94274943-2C6F-4B88-B674-5E85D95C4904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94274943-2C6F-4B88-B674-5E85D95C4904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF7322B-52F9-43C6-AD5E-6B9F1A8E45BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF7322B-52F9-43C6-AD5E-6B9F1A8E45BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF7322B-52F9-43C6-AD5E-6B9F1A8E45BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF7322B-52F9-43C6-AD5E-6B9F1A8E45BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDCFCD8E-EA1A-4DE0-B3C7-7F7ADAE68FC1} = {E3ADE222-E6CF-442F-BD2B-E893AED09659}
+		{B4BA833E-52E0-4F3F-A909-65DF4DA1ECBC} = {E3ADE222-E6CF-442F-BD2B-E893AED09659}
+	EndGlobalSection
+EndGlobal
